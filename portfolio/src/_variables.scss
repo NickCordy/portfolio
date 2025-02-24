@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Overpass:wght@300;500;700&display=swap');
+$font-header: 'JetBrains Mono', monospace;
+$font-text: 'Overpass', sans-serif;
+
+$primary-colour: #0D1321;
+$secondary-colour: #F0F4EF;
+$tertiary-colour: #32A287;
+$accent-colour: #08A4BD;
+$blah-colour: #182639;
+
+:export {
+    font-header: $font-header;
+    font-text: $font-text;
+    primary-colour: $primary-colour;
+    secondary-colour: $secondary-colour;
+    tertiary-colour: $tertiary-colour;
+    accent-colour: $accent-colour;
+  }

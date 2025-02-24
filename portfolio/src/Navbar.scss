@@ -1,0 +1,29 @@
+@use "./variables" as vars;
+
+.navbar {
+    margin: 4rem;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    list-style: none;
+}
+
+.navbar li{
+    margin: 0 2rem;
+}
+
+.navbar a {
+    color: vars.$secondary-colour;
+    font-family: vars.$font-header;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    color: vars.$tertiary-colour;
+}

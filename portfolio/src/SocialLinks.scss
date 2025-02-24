@@ -1,0 +1,19 @@
+@use "./variables" as vars;
+
+.social-links {
+    display: flex;
+    justify-content: right;
+    margin-right: 4rem;
+}
+
+.icon {
+    color: vars.$secondary-colour;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      color: vars.$tertiary-colour;
+      transform: scale(1.1);
+    }
+  }
+  

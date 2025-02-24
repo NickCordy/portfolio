@@ -1,0 +1,21 @@
+@use './variables' as vars;
+
+#contact {
+    background-color: vars.$accent-colour;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact a {
+    color: vars.$secondary-colour;
+
+    &:hover {
+        color: vars.$primary-colour;
+    }
+}

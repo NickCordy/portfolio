@@ -1,0 +1,43 @@
+@use "./variables" as vars;
+
+#skills {
+    background-color: vars.$tertiary-colour;
+    margin-bottom: 4rem;
+    
+}
+
+.skills {
+    margin-bottom: 4rem;
+}
+
+.skill-cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 75vh;
+}
+
+.card {
+    h3 {
+        color: vars.$accent-colour;
+        font-size: 1.8rem;
+    }
+
+    background-color: vars.$primary-colour;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 1rem 2rem vars.$primary-colour;
+}
+
+.skill-list > ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1.2rem;
+    list-style: none;
+    color: vars.$secondary-colour;
+}
+
+.skill-list {
+    text-align: center;
+}

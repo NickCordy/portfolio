@@ -1,0 +1,17 @@
+@use "./variables" as vars;
+
+.about {
+    h3 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    background-color: vars.$primary-colour;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 4rem 4rem;
+    margin-top: 6rem;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px vars.$accent-colour;
+    border: solid 2px #17B890;
+}
